@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script> -->
+    <script src="../script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="/assets/logo.png" />
+    <link rel="stylesheet" href="../style.css">
+    <title>Danny L. Photography</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href='/'>
+            <div class="brand-title"><img class='logo' src='/assets/logo.png' />Danny L. Photography</div>
+        </a>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul class="nav-list">
+                <!-- <li class='nav-link' value='home'><a href="/">Home</a></li> -->
+            </ul>
+        </div>
+    </nav>
+    <div class='customModal'>
+        <img class='modal-photo' src='' />
+        <span class='closeButton'>&times;</span>
+    </div>
+    <div class="gallery">
+        <div class="pics">
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/07052018124121.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/1672a44a-c8cc-4732-8146-02a73fadd3e2.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC00007.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC00030.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC00068.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC00197.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC01526.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC03674.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC03967.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC04076.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC04687.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC05003.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC05014_for screensaver.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC05031.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC05144_Original.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC07382.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC07527.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC08278.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC08282.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC08777.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09175.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09178.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09225.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09283.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09360.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09415.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09460.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09762.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09767.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09770.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09795.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09816.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09822.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09838.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09842.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09847.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09849.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09851.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09852.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09854.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09858.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09882.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09938-Edit.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC09946.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/DSC_0054.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/IMG_1328.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/IMG_3067.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/IMG_3687.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/IMG_4774.jpg' />
+            <img onclick='openModal()' class='img-thumb' src='/assets/photos/archive/ninjabw.jpg' />
+        </div>
+    </div>
+</body>
+
+</html>
