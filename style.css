@@ -90,17 +90,19 @@ body {
   border-radius: 10px;
 }
 
-.home-images {
+/* .home-images {
   height: 10%;
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 0;
   padding-top: 1rem;
-}
+} */
 
 .home-images-interior {
+  /* background-color: black; */
   height: 90vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   padding: 5px;
@@ -116,43 +118,16 @@ body {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
+  }
+
+  .brand-title {
+    margin: 0;
   }
 
   .toggle-button {
     display: flex;
-  }
-
-  .navbar-links {
-    display: none;
-    width: 100%;
-  }
-
-  .navbar-links ul {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .navbar-links ul li {
-    text-align: center;
-  }
-
-  .navbar-links ul li a {
-    padding: 0.5rem 1rem;
-  }
-
-  .navbar-links.active {
-    display: flex;
-  }
-}
-
-@media (max-width: 800px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .toggle-button {
-    display: flex;
+    margin: 0;
   }
 
   .navbar-links {
