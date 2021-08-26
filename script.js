@@ -13,7 +13,7 @@ navList.forEach((ul) => {
     ul.innerHTML = `
     <li class="nav-link" value="japan"><a href="/pages/japan.html">japan</a></li>
     <li class="nav-link" value="nyc"><a href="/pages/nyc.html">New York</a></li>
-    <li class="nav-link" value="vegas"><a href="/pages/vegas.html">vegas</a></li>
+    <li class="nav-link" value="vegas"><a href="/pages/vegas.html">Las Vegas & Nevada</a></li>
     <li class="nav-link" value="archive"><a href="/pages/archive.html">archive</a></li>
 
     <li class='nav-link'><a href="https://instagram.com/danny_l_photography" target="_blank" rel="noopener noreferrer">Instagram</a></li>
