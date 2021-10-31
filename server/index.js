@@ -1,4 +1,4 @@
-//getting images from folder
+//getting images from folder: type node server to run server/index.js then hit routes in browser
 const axios = require('axios');
 const express = require('express');
 const { static } = express;
