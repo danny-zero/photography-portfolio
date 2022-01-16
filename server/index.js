@@ -7,6 +7,7 @@ const fs = require('fs');
 const app = express();
 
 app.get('/folder/:folderName', (req, res, next) => {
+    //example: http://localhost:3000/folder/archive
     try {
         const folderName = req.params.folderName
         const imagesArr=[];
