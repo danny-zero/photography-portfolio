@@ -71,15 +71,7 @@ const images = [];
 // let num = 1;
 
 setInterval(() => {
-    // if (num === 15) { //amount of files in carousel folder
-    //     num = 1
-    // } else {
-    //     num++
-    // }
-    const num = Math.floor(Math.random() * (16-1) + 1)
-    // carousel.classList.remove('animate__fadeIn');
-    // carousel.classList.add('animate__fadeIn');
-    carousel.src = `assets/Carousel/carousel${num}.jpg`;
-    // interior.innerHTML = `<img class="carousel-img animate__animated animate__fadeIn" src="${images[num]}">`
+    const num = Math.floor(Math.random() * (15) + 1)
+    interior.innerHTML = `<img class="carousel-img fade-in" src="assets/Carousel/carousel${num}.jpg">`
 }, 4000)
 
