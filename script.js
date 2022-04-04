@@ -18,8 +18,8 @@ navList.forEach((ul) => {
     <li class="nav-link" value="archive"><a href="/pages/archive.html">archive</a></li>
 
     <li class='nav-link'><a href="https://instagram.com/danny_l_photography" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-    <li class='nav-link'><a href="https://www.etsy.com/shop/DannyLPhotoandDesign" target="_blank" rel="noopener noreferrer">Shop</a></li>
     `
+    // <li class='nav-link'><a href="https://www.etsy.com/shop/DannyLPhotoandDesign" target="_blank" rel="noopener noreferrer">Shop</a></li>
 });
 
 const navLinks = document.querySelectorAll('.nav-link');
